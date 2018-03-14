@@ -91,6 +91,7 @@ BOOL APIENTRY DllMain(HMODULE hModule, DWORD  ul_reason_for_call, LPVOID lpReser
 	#endif
 			std::cout << "Mutiny Fake Angle Fix Injected" << std::endl;
 
+			Hook();
 			break;
 		}
 		case DLL_THREAD_ATTACH:
